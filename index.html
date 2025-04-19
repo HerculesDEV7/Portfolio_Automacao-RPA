@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hercules DEV | Portfólio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        if (typeof AOS !== 'undefined') {
+          AOS.init({
+            once: true,
+            offset: 50
+          });
+        }
+      });
+    </script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50" role="banner">
+      <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+        <h1 class="text-xl font-bold text-cyan-400 flex items-center gap-2">
+          <class="w-8 h-8> Hercules DEV
+        </h1>
+        <button class="menu-toggle md:hidden text-cyan-400 focus:outline-none" aria-label="Abrir menu de navegação" aria-expanded="false">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+        <nav class="nav-menu hidden md:flex space-x-4" role="navigation">
+          <a href="#sobre" class="nav-link">Sobre</a>
+          <a href="#habilidades" class="nav-link">Habilidades</a>
+          <a href="#projetos" class="nav-link">Projetos</a>
+          <a href="#certificados" class="nav-link">Certificados</a>
+          <a href="#contato" class="nav-link">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="min-h-screen flex items-center justify-center text-center px-4 sm:px-6 pt-20 sm:pt-28 hero-section" data-aos="fade-up">
+      <div class="max-w-3xl">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Olá! Sou Hercules Santos Ferreira 👨‍💻</h2>
+        <img src="images/hercules-photo.jpg" alt="Foto de Hércules Santos Ferreira, desenvolvedor iniciante, vestindo uma camisa xadrez sobre uma camiseta preta" class="profile-pic">
+        <p class="text-gray-300 text-lg md:text-xl mb-8">
+          Desenvolvedor iniciante apaixonado por tecnologia, automação de processos e programação com Python.
+        </p>
+        <a href="#projetos" class="hero-button">
+          Ver meus projetos
+        </a>
+      </div>
+    </section>
+
+    <!-- Sobre mim -->
+    <section id="sobre" class="max-w-4xl mx-auto" data-aos="fade-up">
+      <h3 class="section-title">Sobre mim</h3>
+      <p class="mb-4">
+        Tenho formação em Técnico Administrativo e, atualmente, estou cursando Análise e Desenvolvimento de Sistemas.
+      </p>
+      <p class="mb-4">
+        Frequentemente desenvolvo projetos pessoais relacionados à automação de processos, com o objetivo de adquirir experiência na solução de problemas de negócio e aprimorar meu domínio de ferramentas de RPA.
+      </p>
+      <p class="mb-4">
+        Estou em busca de uma oportunidade para atuar profissionalmente na minha área de especialização, contribuindo para a melhoria e para a otimização de processos repetitivos nas empresas — reduzindo custos tempo gasto com tarefas manuais e aumentando a precisão das informações.
+      </p>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="bg-section-alt" data-aos="fade-up">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="section-title text-center">Habilidades</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h4 class="text-xl font-bold mb-2">Automação com Python</h4>
+            <ul class="list-disc ml-6 text-gray-300">
+              <li>PyAutoGUI (mouse e teclado)</li>
+              <li>Pandas (manipulação de dados)</li>
+              <li>Time (controle de tempo)</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-xl font-bold mb-2">Estudos complementares</h4>
+            <ul class="list-disc ml-6 text-gray-300">
+              <li>Estatística e Machine Learning</li>
+              <li>Visualização de Dados</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="max-w-5xl mx-auto" data-aos="fade-up">
+      <h3 class="section-title">Projetos em Automação</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="card">
+          <img src="images/project-automation.png" alt="Imagem ilustrativa de um laptop exibindo uma interface de software para automação de cadastro de produtos" class="project-image">
+          <h4 class="text-xl font-bold mb-2">Cadastro de Produtos Automatizado</h4>
+          <p class="text-gray-300 mb-4">
+            Automatização de preenchimento de formulário com dados lidos de um CSV, utilizando Python.
+          </p>
+          <p class="text-gray-400 mb-2">Tecnologias: Python, Pandas, PyAutoGUI, Time</p>
+          <a href="https://github.com/HerculesDEV7/automatizacao_preenchimento_formulario" target="_blank" class="github-link">
+            Ver no GitHub →
+          </a>
+        </div>
+        <div class="card">
+          <img src="images/project-rpa-example.png" alt="Imagem ilustrativa de um script RPA em execução" class="project-image">
+          <h4 class="text-xl font-bold mb-2">Extração de Dados com RPA</h4>
+          <p class="text-gray-300 mb-4">
+            Script para extrair dados de PDFs e salvar em um banco de dados, usando automação RPA com Python.
+          </p>
+          <p class="text-gray-400 mb-2">Tecnologias: Python, PyPDF2, SQLite</p>
+          <a href="https://github.com/HerculesDEV7/rpa-extracao-dados" target="_blank" class="github-link">
+            Ver no GitHub →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificados -->
+    <section id="certificados" class="max-w-5xl mx-auto" data-aos="fade-up">
+      <h3 class="section-title">Certificados e Formação</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="card">
+          <h4 class="text-xl font-bold mb-2">Análise e Desenvolvimento de Sistemas</h4>
+          <p class="text-gray-300 mb-2">Curso em andamento - [Unifatecie]</p>
+          <p class="text-gray-400">Foco em desenvolvimento de software, automação e engenharia de software.</p>
+        </div>
+        <div class="card">
+          <h4 class="text-xl font-bold mb-2">Python para Automação</h4>
+          <p class="text-gray-300 mb-2">Certificado - [Plataforma, ex.: Udemy]</p>
+          <p class="text-gray-400">Curso prático com projetos de automação usando PyAutoGUI e Pandas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="bg-section-alt text-center" data-aos="fade-up">
+      <h3 class="section-title inline-block">Entre em contato</h3>
+      <p class="mb-4">Sinta-se à vontade para me chamar em qualquer uma das redes abaixo:</p>
+      <div class="space-y-2">
+        <p><strong>Email:</strong> <a href="mailto:hercules.tech.dev@gmail.com" class="contact-link">hercules.tech.dev@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hercules-santos-ferreira-7b6a69231/" target="_blank" class="contact-link">/hercules-santos-ferreira</a></p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      © 2025 Hercules DEV. Todos os direitos reservados.
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button class="back-to-top" aria-label="Voltar ao topo">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+      </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script>
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      menuToggle.addEventListener('click', () => {
+        const isExpanded = navMenu.classList.toggle('active');
+        menuToggle.setAttribute('aria-expanded', isExpanded);
+      });
+
+      const backToTopButton = document.querySelector('.back-to-top');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+          backToTopButton.classList.add('visible');
+        } else {
+          backToTopButton.classList.remove('visible');
+        }
+      });
+      backToTopButton.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const targetId = link.getAttribute('href').substring(1);
+          const targetSection = document.getElementById(targetId);
+          if (targetSection) {
+            const sectionPosition = targetSection.getBoundingClientRect().top + window.scrollY;
+            window.scrollTo({
+              top: sectionPosition,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+
+      document.querySelector('.hero-button').addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = e.target.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+        if (targetSection) {
+          const sectionPosition = targetSection.getBoundingClientRect().top + window.scrollY;
+          window.scrollTo({
+            top: sectionPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

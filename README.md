@@ -24,7 +24,7 @@ Atualmente, estou realizando automações com essas ferramentas mencionadas acim
 
 ## 🌟 Sobre Mim
 
-Sou um desenvolvedor apaixonado por resolver problemas reais utilizando Python e automações criativas. Este portfólio demonstra minha capacidade de simplificar processos e agregar valor através da tecnologia. Estou animado para expandir minha experiência no uso de ferramentas voltadas para RPA no futuro.
+Sou um desenvolvedor apaixonado por resolver problemas reais utilizando Python, ferramentas de RPA e automações criativas. Este portfólio demonstra minha capacidade de simplificar processos e agregar valor através da tecnologia.
 
 ## 📧 Contato
 

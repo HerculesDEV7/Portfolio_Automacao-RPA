@@ -1,6 +1,6 @@
-# Portfólio de Automação de Processos com Python
+# Portfólio de Automação de Processos RPA
 
-Bem-vindo ao meu portfólio de automação de processos utilizando **Python**! 🚀 Aqui você encontrará projetos que demonstram como automatizar tarefas repetitivas e aumentar a produtividade com código simples e eficaz.
+Bem-vindo ao meu portfólio de automação de processos **RPA**! 🚀 Aqui você encontrará projetos que demonstram como automatizar tarefas repetitivas e aumentar a produtividade.
 
 ## 🛠️ Ferramentas e Tecnologias
 

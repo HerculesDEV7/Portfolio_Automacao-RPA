@@ -34,4 +34,4 @@ Sou um desenvolvedor apaixonado por resolver problemas reais utilizando Python e
 ## 📧 Contato
 
 Entre em contato comigo por:
-- **Email**: [hercules.tech.dev@gmail.com](hercules.tech.dev@gmail.com)
+- **Email**: [Enviar email](mailto:hercules.tech.dev@gmail.com)

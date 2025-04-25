@@ -26,12 +26,9 @@ Atualmente, estou realizando automações com essas ferramentas mencionadas acim
 
 Sou um desenvolvedor apaixonado por resolver problemas reais utilizando Python e automações criativas. Este portfólio demonstra minha capacidade de simplificar processos e agregar valor através da tecnologia. Estou animado para expandir minha experiência no uso de ferramentas voltadas para RPA no futuro.
 
-## 🔗 Links Úteis
-
-- [https://www.linkedin.com/in/hercules-santos-ferreira/](#)
-- [https://github.com/HerculesDEV7/Projeto-Automacao-de-Cadastro-de-Produtos](#)
-
 ## 📧 Contato
 
 Entre em contato comigo por:
-- **Email**: [hercules.tech.dev@gmail.com](mailto:hercules.tech.dev@gmail.com)
+- 📧 **Email:** [hercules.tech.dev@gmail.com](mailto:hercules.tech.dev@gmail.com)
+- 💼 **LinkedIn:** [https://www.linkedin.com/in/hercules-santos-ferreira/](https://www.linkedin.com/in/hercules-santos-ferreira/)  
+- 🌐 **Portfólio:** [seuportfólio.com](https://seuportfólio.com) 
